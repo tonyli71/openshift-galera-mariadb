@@ -139,7 +139,7 @@ parameters:
 - description: Peer DNS Ipaddr on Submariner 
   displayName: Peer DNS IP on Submariner
   name: PEER_DNS_IP
-  value: "172.32.0.10"
+  value: ""
 
 objects:
 - apiVersion: v1
