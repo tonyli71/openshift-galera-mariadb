@@ -1,4 +1,18 @@
 apiVersion: v1
+kind: Secret
+metadata:
+  name: rails-mysql-persistent
+stringData:
+  application-password: redhat
+  application-user: admin
+  database-password: redhat
+  database-user: admin
+  database-user-password: redhat
+  keybase: uwao2do83qv4uj5yv53y2rqjqi6pn0kxy4u4u4xoiiuopgvw51ru4nqwd8ifrr76filyxf4216624fgk4ltvl6dcwxpg2angm0l0l618rdlpmb65554aocoinlnxdbi
+  peer_dns_ip: ""
+
+---
+apiVersion: v1
 kind: Service
 metadata:
   name: galera-stateful
