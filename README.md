@@ -9,6 +9,8 @@ oc new-project my-mariadb-galera-app
 
 oc new-app -f  mariadb-galera-persistent-template.yml
 
+OR
+
 oc apply -f  galera-stateful2.yml 
 
 subctl export service --namespace my-mariadb-galera-app galera-stateful
